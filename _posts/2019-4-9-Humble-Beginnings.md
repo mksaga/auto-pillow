@@ -3,8 +3,6 @@ layout: post
 title: Humble Beginnings!
 ---
 
-### Let the Games Begin
-
 It's the first week of April, and we've finally started actually working on the project!
 
 We decided to use the mBed microcontroller as the core of the project. At this point, we are trying to tackle the first major piece of the project: sensing the position of a sleeper's head on the pillow.
