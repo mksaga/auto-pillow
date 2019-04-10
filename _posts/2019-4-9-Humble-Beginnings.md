@@ -3,7 +3,7 @@ layout: post
 title: Humble Beginnings!
 ---
 
-# Let the Games Begin
+### Let the Games Begin
 
 It's the first week of April, and we've finally started actually working on the project!
 
