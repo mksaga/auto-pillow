@@ -5,8 +5,10 @@ date: 07 May
 excerpt_separator: <!--more-->
 ---
 
-It's the first week of April, and we've finally started actually working on the project!
+At this point, we were just making tweaks based on feedback received from our reach demo presentation.
 
-We decided to use the mBed microcontroller as the core of the project. At this point, we are trying to tackle the first major piece of the project: sensing the position of a sleeper's head on the pillow.
+For one, we had been working with the pillow completely deflated and taking readings from there. Rahul advised starting with a fully inflated pillow and working from there, which we did. Surprisingly, the readings from the pillow appeared to be more consistent with a firm, almost fully inflated pillow than they were when we were working with a mostly deflated pillow.
+
 <!--more-->
-Found out in lecture today about capacitive sensors that are simple and detect whether something is on top or not. Soldering a wire to the sensor was a bit of a nightmare, but some heat shrink helped save the day. As of now, we can tell whether or not something is on top of the sensor: when we press on it, the reading is ~0.95+, and when nothing is on it, the reading is roughly 0.25 or below. Next step is to get a grid of these sensors working and come up with a way to categorize head orientations based on the sensor readings!
+
+We also refined the algorithm a little bit, calibrating for each of the 4 sensors rather than by overall pressure on a side.
