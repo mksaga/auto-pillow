@@ -17,4 +17,4 @@ We started working with the motor and ran into one barrier after another. We tri
 
 As we worked with the motor, we also realized that we would need a valve for each compartment so that air would not leak out.
 
-Our baseline demo was an embarrassing sight. The motors and solenoid valves did not work, so we had nothing to show for our work.
+Our baseline demo was an embarrassing sight. The motors and solenoid valves did not work, so we had nothing to show for our work. We did get some advice that helped us move forward, though. For one, Kim advised us to use an H-bridge circuit for driving the motor, which turned out to actually work reliably compared to our faulty transistor setup. Rahul also advised us to stop trying to tweak Velostat to get good readings and to just return to the flexible strain resistors (FSRs) that we used initially for our first milestone.
