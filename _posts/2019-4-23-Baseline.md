@@ -8,6 +8,13 @@ excerpt_separator: <!--more-->
 The time has finally come for the first big step: the baseline demo.
 
 Velostat has proven to be a very difficult material to work with. It took several nights of trying to get sensible readings from different sized pieces of the material until we finally discovered a key for Velostat: to get good readings, we had to fold the velostat over two or three times. Once we did that, we could finally see observable differences between when we applied pressure versus when we left it alone.
-
 <!--more-->
-Found out in lecture today about capacitive sensors that are simple and detect whether something is on top or not. Soldering a wire to the sensor was a bit of a nightmare, but some heat shrink helped save the day. As of now, we can tell whether or not something is on top of the sensor: when we press on it, the reading is ~0.95+, and when nothing is on it, the reading is roughly 0.25 or below. Next step is to get a grid of these sensors working and come up with a way to categorize head orientations based on the sensor readings!
+The Velostat worked reasonably well for us initially, but as we continued, we realized that the readings we were getting were very inconsistent. So, we decided to set that part aside and move on to the next big component of our project: inflating the pillow based on the sensor readings.
+
+The idea behind our project was that based on the readings from the sensors, we could get some idea of the orientation of the sleeping person's head and thus inflate the different compartments of the pillow accordingly. 
+
+We started working with the motor and ran into one barrier after another. We tried using transistors to control the motor with a simple circuit (since we didn't need to control the direction, speed, etc.), but ended up frying multiple power transistors in the process. 
+
+As we worked with the motor, we also realized that we would need a valve for each compartment so that air would not leak out.
+
+Our baseline demo was an embarrassing sight. The motors and solenoid valves did not work, so we had nothing to show for our work.
