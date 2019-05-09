@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Progress, Milestone 1
-date: 22 April
+date: 16 April
 excerpt_separator: <!--more-->
 ---
 
